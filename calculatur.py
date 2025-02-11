@@ -2,7 +2,7 @@ from add import add
 from multi import multi
 from Divide import divide
 from sub import sub
-form power import power
+from power import power
 
 def main():
     a = int(input("enter a number: "))
