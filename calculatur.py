@@ -1,6 +1,6 @@
 from add import add
 from multi import multi
-from Divide import devide
+from Divide import divide
 from sub import sub
 
 
@@ -12,16 +12,16 @@ def main():
     if func == "add":
         print(add(a,b))
 
-    if func == "multi":
+    elif func == "multi":
         print(multi(a,b))
 
-    if func == "devide":
+    elif func == "divide":
         print(divide(a,b))
 
-    if func == "sub":
+    elif func == "sub":
         print(sub(a,b))
 
     else:
-        print("erorr")
+        print("error")
 
 main()
