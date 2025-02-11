@@ -2,7 +2,7 @@ from add import add
 from multi import multi
 from Divide import divide
 from sub import sub
-
+form power import power
 
 def main():
     a = int(input("enter a number: "))
@@ -20,6 +20,9 @@ def main():
 
     elif func == "sub":
         print(sub(a,b))
+
+    elif func == "power":
+        print(power(a,b))
 
     else:
         print("error")
